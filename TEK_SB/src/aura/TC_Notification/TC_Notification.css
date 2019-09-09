@@ -1,0 +1,55 @@
+.THIS .slds-text-heading_largetitle {
+    background-color: white;
+    border-left: solid #D4D4D4 5px;
+        
+}
+.THIS .slds-m-around_xx-large{
+    height: 0px;
+    width: 0px;
+    }
+.THIS .marquee {
+    width: 17em;     
+    height: 10em;     
+    margin: 1em auto;     
+    overflow: hidden;     
+    background: white;
+	  
+    position: relative;
+    box-sizing: border-box;   
+   
+}
+.THIS .slider{
+     top: 1em;     
+    position: relative;     
+    box-sizing: border-box;     
+    animation: slider 5s linear infinite;    
+    list-style-type: none;     
+    text-align: left;
+    white-space: nowrap;
+    
+    
+    
+}
+.THIS .slider:hover {     
+    animation-play-state: paused; 
+    
+}
+
+@keyframes slider {     
+    0%   { top:   100% }     
+    100% { top: -100% } 
+}
+ 
+.THIS .p {   
+    font-family: helvetica, arial, sans serif;
+}
+
+
+.THIS .blink-one {
+    color:red;
+    
+    animation: blinker-one 0.5s linear infinite;
+       }
+       @keyframes blinker-one {  
+         0% { opacity: 0; }
+       }
